@@ -10,4 +10,4 @@ function error(err){
 }
 
 var watcherID = navigator.geolocation.watchPosition(sucess, error, {
-  enableHighAccuracy: true, maximumAge: 60000});
+  enableHighAccuracy: true, maximumAge: 900000});
